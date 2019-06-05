@@ -1,0 +1,92 @@
+.foto {
+  max-height: 300px;
+  width: auto;
+}
+
+main {
+  height: 400px;
+  /* z-index: 1; */
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+nav {
+  background-image: url("../images/nav_guest_background.jpg");
+}
+.bg-foto {
+  background-image: url("../images/bg-foto.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+}
+.tekstas-lentele {
+  color: white;
+}
+.meniu {
+  height: 550px;
+}
+.ekranas {
+  border: 25px solid;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(29, 143, 134),
+    rgb(250, 224, 66)
+  );
+  border-image-slice: 1;
+}
+.foto_pvz {
+  height: 400px;
+  width: auto;
+}
+footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+  margin-top: 500px;
+}
+.augintinis_foto {
+  height: 300px;
+  width: auto;
+}
+
+.registracijos_forma {
+  width: 50%;
+  margin-left: 25%;
+}
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(119, 126, 125, 0.4);
+  z-index: -9;
+}
+.foto-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -9;
+}
+.registracija_virsus {
+  margin-top: 8rem;
+}
+.btn-xlarge {
+  padding: 28px 38px;
+  font-size: 22px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
